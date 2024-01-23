@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spokojne Wakacje | Kontakt</title>
+    <!-- Czcionka -->
+    <link rel="stylesheet" href="../_imports/fonts.css">
+
+    <!-- Navbar -->
+    <link rel="stylesheet" href="../_stylesheets/website-menu.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../_imports/icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS Formularz -->
+    <link rel="stylesheet" href="../_stylesheets/contact-form.css">
+
+    <!-- CSS Stopka -->
+    <link rel="stylesheet" href="../_stylesheets/website-footer.css">
+
+    <!-- Dropdown Menu -->
+    <script src="../_scripts/dropdownmenu.js" defer></script>
+
+    <!-- Funkcja na rok -->
+    <script src="../_scripts/getyear.js" defer></script>
+
+    <link rel="shortcut icon" href="../_images/logos/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><img src="../_images/logos/logo.png" class="imglogo"></div>
+            <ul class="links">
+                <li><a href="../index.html"><i class="fa-solid fa-newspaper"></i> Aktualności</a></li>
+                <li></li>
+                <li><a href="../gallery/gory.html"><i class="fa-solid fa-mountain"></i> Góry</a></li>
+                <li><a href="../gallery/morze.html"><i class="fa-solid fa-water"></i> Morze</a></li>
+                <li><a href="../gallery/tropiki.html"><i class="fa-solid fa-tree"></i> Egoztyka</a></li>
+                <li></li>
+                <li><a href="../about/index.html"><i class="fa-solid fa-building"></i> Firma</a></li>
+                <li><a href="../contact/index.html"><i class="fa-solid fa-id-card-clip"></i> Kontakt</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="../index.html"><i class="fa-solid fa-newspaper"></i> Aktualności</a></li>
+            <li><a href="../gallery/gory.html"><i class="fa-solid fa-mountain"></i> Góry</a></li>
+            <li><a href="../gallery/morze.html"><i class="fa-solid fa-water"></i> Morze</a></li>
+            <li><a href="../gallery/tropiki.html"><i class="fa-solid fa-tree"></i> Egoztyka</a></li>
+            <li><a href="../about/index.html"><i class="fa-solid fa-building"></i> Firma</a></li>
+            <li><a href="../contact/index.html"><i class="fa-solid fa-id-card-clip"></i> Kontakt</a></li>
+        </div>
+    </header>
+
+    <form class="form" method="post" action="../index.html">
+        <h2>Napisz do nas!</h2>
+        <p><input type="text" placeholder="*Podaj swoje imie słodziaku" required></p>
+        <p><input type="email" placeholder="*Podaj maila na który mamy się odezwać" required></p>
+        <p><input type="text" placeholder="*Powiedz nam co cię trapi" required></p>
+        <p><input type="tel" placeholder="Podaj swój numer telefonu"></p>
+        <input type="submit" value="Wyślij!"><p>po wysłaniu nastąpi przekierowanie na strone główna</p>
+        <div class="infos">
+          <span class="fa fa-phone"></span>+48 600 100 100
+          <span class="fa-solid fa-envelope"></span> kontakt@spokojnewakacje.org
+        </div>
+      </form>
+
+    
+    <footer>
+        © 2006 - <span id="year"></span> SpokojneWakacje.org
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+section#hero {
+    height: calc(80vh - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    min-width: 400px;
+}
+
+#hero h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#hero h2:hover {
+    font-size: 1.5rem;
+    transition: 0.25s;
+    text-decoration: none;
+    max-width: 800px;
+}
